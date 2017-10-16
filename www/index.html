@@ -9,15 +9,21 @@
 </head>
 
 <div class="header">
-    <div>Test</div>
+    <div>Storing Local data</div>
 </div>
 
-<h1>
-  Local Storage Test!
-</h1>
-
 <body>
-  Tis the body of the page
-  <script src="js/scripts.js"></script>
+  <div class="app">
+              <h1>PhoneGap</h1>
+              <div id="deviceready" class="blink">
+                  <p class="event listening">Connecting to Device</p>
+                  <p class="event received">Device is Ready</p>
+              </div>
+          </div>
+          <script type="text/javascript" src="cordova.js"></script>
+          <script type="text/javascript" src="js/index.js"></script>
+          <script type="text/javascript">
+              app.initialize();
+          </script>
 </body>
 </html>
