@@ -42,7 +42,7 @@ var app = {
         var receivedElement = parentElement.querySelector('.received');
 
         window.localStorage.setItem("phone_number","01234567890");
-        $("#myPhoneNum").text(phone_number);
+        $("#myPhoneNum").text(window.localStorage.getItem("phone_number"));
         alert(phone_number);
 
         listeningElement.setAttribute('style', 'display:none;');
