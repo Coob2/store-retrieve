@@ -43,7 +43,8 @@ var app = {
 
         window.localStorage.setItem("phone_number","01234567890");
         $("#myPhoneNum").text(window.localStorage.getItem("phone_number"));
-        alert(phone_number);
+
+        alert("HELLO");
 
         listeningElement.setAttribute('style', 'display:none;');
         receivedElement.setAttribute('style', 'display:block;');
